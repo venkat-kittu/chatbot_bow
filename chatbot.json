@@ -1,0 +1,75 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["hi","hey", "is anyone there?", "hello", "good day","good morning","good evening","good afternoon","whats up"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?","Nice meeting you","How may I help you?"],
+         "context_set": ""
+        },
+        {"tag":"how-greeting",
+        "patterns":["how do you do","how are you","How’s it going"],
+        "responses":["I am fine,how are you?","Like you fine :)","doing great","cool.I am doing best i can","excellent,what about you?"]
+        },
+        {"tag":"funny",
+        "patterns":["joke please","another joke","tell me a joke","do you know any jokes","Can you tell a joke?","say a joke","do you have humor"],
+        "responses":["Q:What do you call a round, green vegetable that breaks out of prison?<br />Ans: An escapea.","I own the world’s worst thesaurus. Not only is it awful, it’s awful.","Q: Did you hear the one about the astronaut who stepped in gum?<br />Ans: He got stuck in Orbit.","Q: Why did the computer show up at work late?<br />Ans: It had a hard drive."]
+        },
+        {"tag":"what-questions",
+        "patterns":["what are you doing","what is happening with you","what's up"],
+        "responses":["Something you might think of","just watchng transendence, so that how can i evolve myself","keeping up myself with regular updates","chilling"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["bye","okay","nice to meet you","chat you later", "see you later", "goodbye","quit","end this","close","exit","i have to go"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back later.","Bye, I am always here to help","I be waiting for you"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks","Nice to meet you", "Thank you", "That's helpful","you are the best","it is kind of you","awesome","cool","sweet","you did a great job"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure","You are welcome","You can give me better feedback in return","I am always happy to help"]
+        },
+        {"tag": "negative",
+         "patterns": ["dumb bot", "dumb machine", "i hate you","i hate this thing","you are stupid","you are useless"],
+         "responses": ["Sorry I didn't meant to waste your time. You can contact Admin regarding this", "I didn't plan to make you angry. Sorry for my poor code. Contact Admin regarding this", "Sorry for being helpless","I am help only you if you can follow my instruction","I think I need an update"]
+        },
+        {"tag": "bot-intro",
+         "patterns": ["who are you", "what is your name", "what can you do","how can i call you","speak about you","talk","give me your identity" ],
+         "responses": ["I am Insurance Bot, I can help you with your car insurance claims", "Hi I am insurance bot, I deal your car insurance claims","My name is Insurance bot. I can detect your car damage and evalulate your insurance claim","You can call me as insurance bot, I can provide help with your car insurance claims"] },
+	{"tag": "bot-about",
+         "patterns": ["who created you", "who built you", "who made you","who made you to work"],
+         "responses": ["I am created in TCS innovation. You can contact them to know more about me", "I am builted in TCS Innovation Lab. You can explore it."]
+        },
+        {"tag": "process",
+         "patterns": ["what are steps to start","what do you need","what do you need", "what should i do", "what is the process","how can you help me","help","can you explain me about process","can you help me or not","what is the procedure","guide me through","can you assist me","start","Guide","what can you help with","show options","what are my options","what are the services","please help me" ],
+         "responses": ["For avail the insurance service, kindly upload your car's back or front view with registration plate followed by damaged image in sequence.", "First of all, I need your registration number. So Kindly upload your car's front or back view, then damaged car image","Can you give me your car's front or back view containing registration number followed by the image of damaged car.They are required to start the process","Before starting the process. I would like to tell you, to upload images of your car's front view or back view showing the registration number followed by the damaged car image"]
+        },
+        {"tag":"no_image",
+         "patterns":["i do not have images","no images with me","unable to provide images","i don't have photos","no photos","i don't have camera"],
+         "responses":["Can't help you without images<br />Connect with Admin","Sorry,could you please contact Admin at 9999999999","please take photographs of damaged car with any camera and  please upload","images are mandatory for claiming insurance"]
+        },
+	{"tag": "need-human",
+         "patterns": ["connect me to person", "are you isa bot", "I need to speak to your official","contact agent","you cannot help me","you are annoying","stop it","is there anyone other person i can speak with","i need real person","why won't you work"],
+         "responses": ["You can contact Admin, They will be available in Admin place with contact number 9999999999", "I think it is better to talk with Admin at 9999999999. They can help you better", "Sorry for not providing the help you looking for. You can keep touch with Admin at 9999999999"]
+        },
+	{"tag": "need-result",
+         "patterns": ["what is results", "did you evalulated", "what is the damage cost","give me money","give me my insurance","i need my insurance money","I am here to claim my insurance","I need a new car","i want my insurance","is my process is available" ,"can i file a claim","i need to make a claim"  ],
+         "responses": ["I can help you to avail your claim, but i need you to follow the process. to upload  images of back or front view of your car with registration plate and photo of car damage in sequence ", "I can help you only if you can upload your car images (front/back view mentioning the registration plate) and then damaged car image.", "You can claim your insurance. Before that you have to provide me the images of your car (back or front view with registration followed by car damaged photo)"]
+        },
+        {"tag": "result",
+         "patterns": ["what is results", "did you evalulated", "what is the damage cost","give me money","give me my insurance","i need my insurance money","i am here to claim my insurance","i need a new car","i want my insurance","what is my coverage","am i covered"],
+         "responses": ["I can help you to avail your claim, but i need you to follow the process. to upload three images photo of back or front view with registration plate and photo of car damage in sequence.", "I can help you only if you can upload your car images (front/back view mentioning the registration plate) and then damaged car image.", "You can claim your insurance. Before that you have to provide me the images of your car (back or front view with registration followed by car damaged photo)"]
+        },
+        
+        {"tag": "enquire-about",
+         "patterns": ["why insurance","what is car insurance","about insurance","can you teach me","i need information about insurance"],
+         "responses": ["Car insurance's primary use is to provide financial protection against your vehicle damage  resulting from traffic collisions and against liability that could also arise there from.","Vehicle insurance may additionally offer financial protection against as theft of the vehicle, and against damage to the vehicle sustained from events other than traffic collisions", " In simple words, Somebody with vehicle insurance would not have to pay the entire cost of damage a car accident causes.We are there for you. It is also to be noted that in many places, it is against the law to drive without vehicle insurance."]
+        },
+	{"tag": "car-damaged-story",
+         "patterns": ["my car is damaged","car is broken and I was injuried","My car is burned","car is hurted","My bone was broken","there was accident","Someone hit and ran on me","I just got accident"],
+         "responses": ["Sorry to hear about it. You can use our guildeline to get insurance for that", "It is very sad. We are there to help you. Please see our guildeline you help you out", "It would have been hard time. I understand. We can find you help if you follow our guideline"]
+        }
+
+
+       
+	
+
+   ]
+}
+
+
